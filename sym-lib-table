@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name HTL_Netzgerät_V7d-eagle-import)(type Legacy)(uri ${KIPRJMOD}/HTL_Netzgerät_V7d-eagle-import.lib)(options "")(descr ""))
+)

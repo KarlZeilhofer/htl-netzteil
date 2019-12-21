@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "HTL Netzgerät V7d")(type KiCad)(uri "$(KIPRJMOD)/HTL Netzgerät V7d.pretty")(options "")(descr ""))
+)
