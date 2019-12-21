@@ -1,4 +1,4 @@
-update=Sa 21 Dez 2019 16:19:19 CET
+update=Sa 21 Dez 2019 19:11:44 CET
 version=1
 last_client=kicad_ppa
 [general]
@@ -29,8 +29,12 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0
 TrackWidth1=0.25
+TrackWidth2=0.8
+TrackWidth3=1.8
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=2
+ViaDrill2=0.8
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -238,8 +242,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=empty.kicad_wks
-PlotDirectoryName=svg
+PageLayoutDescrFile=
+PlotDirectoryName=pdf
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

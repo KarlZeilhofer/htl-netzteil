@@ -1,1 +1,0 @@
-Netzgerät HTL-Steyr
