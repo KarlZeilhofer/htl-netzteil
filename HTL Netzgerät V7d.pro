@@ -1,4 +1,4 @@
-update=Sa 21 Dez 2019 13:59:02 CET
+update=Sa 21 Dez 2019 16:19:19 CET
 version=1
 last_client=kicad_ppa
 [general]
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=empty.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=svg
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
