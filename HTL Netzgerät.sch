@@ -17,12 +17,12 @@ $Comp
 L Device:D_Bridge_+A-A GL2
 U 1 1 5DFE78AA
 P 3150 2350
-F 0 "GL2" V 3550 2650 50  0000 R CNN
-F 1 "1A" V 3450 2650 50  0000 R CNN
+F 0 "GL2" V 3550 1950 50  0000 L CNN
+F 1 "1A" V 3450 2000 50  0000 L CNN
 F 2 "Diode_THT:Diode_Bridge_Round_D9.0mm" H 3150 2350 50  0001 C CNN
 F 3 "" H 3150 2350 50  0001 C CNN
 	1    3150 2350
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 X1
@@ -30,7 +30,7 @@ U 1 1 5DFE85D5
 P 2600 2350
 F 0 "X1" H 2518 2217 50  0000 C CNN
 F 1 "AUX1_AC1" H 2518 2216 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 2600 2350 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 2600 2350 50  0001 C CNN
 F 3 "~" H 2600 2350 50  0001 C CNN
 	1    2600 2350
 	-1   0    0    1   
@@ -41,9 +41,9 @@ $Comp
 L Connector_Generic:Conn_01x01 X2
 U 1 1 5DFE8BAB
 P 2600 2700
-F 0 "X2" H 2518 2567 50  0000 C CNN
+F 0 "X2" H 2518 2825 50  0000 C CNN
 F 1 "AUX1_AC2" H 2518 2566 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 2600 2700 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 2600 2700 50  0001 C CNN
 F 3 "~" H 2600 2700 50  0001 C CNN
 	1    2600 2700
 	-1   0    0    1   
@@ -82,7 +82,7 @@ U 1 1 5DFEABC1
 P 7650 1650
 F 0 "T8" H 7841 1696 50  0000 L CNN
 F 1 "BC639" H 7841 1605 50  0000 L CNN
-F 2 "HTL Netzgerät:TO-92" H 7850 1750 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TO-92" H 7850 1750 50  0001 C CNN
 F 3 "~" H 7650 1650 50  0001 C CNN
 	1    7650 1650
 	1    0    0    -1  
@@ -138,12 +138,12 @@ $Comp
 L Device:D_Bridge_-AA+ GL3
 U 1 1 5DFF683F
 P 1500 1900
-F 0 "GL3" V 1546 1556 50  0000 R CNN
-F 1 "3A" V 1455 1556 50  0000 R CNN
+F 0 "GL3" V 1546 2244 50  0000 L CNN
+F 1 "3A" V 1455 2244 50  0000 L CNN
 F 2 "Diode_THT:Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm" H 1500 1900 50  0001 C CNN
 F 3 "" H 1500 1900 50  0001 C CNN
 	1    1500 1900
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 X3
@@ -151,7 +151,7 @@ U 1 1 5DFF6845
 P 950 1900
 F 0 "X3" H 868 1675 50  0000 C CNN
 F 1 "MAIN_AC1" H 868 1766 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 950 1900 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 950 1900 50  0001 C CNN
 F 3 "~" H 950 1900 50  0001 C CNN
 	1    950  1900
 	-1   0    0    1   
@@ -162,9 +162,9 @@ $Comp
 L Connector_Generic:Conn_01x01 X4
 U 1 1 5DFF684C
 P 950 2400
-F 0 "X4" H 868 2175 50  0000 C CNN
-F 1 "MAIN_AC2" H 868 2266 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 950 2400 50  0001 C CNN
+F 0 "X4" H 868 2525 50  0000 C CNN
+F 1 "MAIN_AC2" H 868 2616 50  0000 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 950 2400 50  0001 C CNN
 F 3 "~" H 950 2400 50  0001 C CNN
 	1    950  2400
 	-1   0    0    1   
@@ -213,7 +213,7 @@ U 1 1 5E00013E
 P 8850 2550
 F 0 "X11" V 8768 2462 50  0000 R CNN
 F 1 "E" V 8723 2462 50  0001 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 8850 2550 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 8850 2550 50  0001 C CNN
 F 3 "~" H 8850 2550 50  0001 C CNN
 	1    8850 2550
 	0    -1   -1   0   
@@ -224,7 +224,7 @@ U 1 1 5E0009DD
 P 8850 1850
 F 0 "X10" V 8768 1930 50  0000 L CNN
 F 1 "C" V 8813 1930 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 8850 1850 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 8850 1850 50  0001 C CNN
 F 3 "~" H 8850 1850 50  0001 C CNN
 	1    8850 1850
 	0    1    1    0   
@@ -235,7 +235,7 @@ U 1 1 5E000F1A
 P 8400 2250
 F 0 "X9" H 8318 2375 50  0000 C CNN
 F 1 "B" H 8318 2376 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 8400 2250 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 8400 2250 50  0001 C CNN
 F 3 "~" H 8400 2250 50  0001 C CNN
 	1    8400 2250
 	1    0    0    -1  
@@ -255,7 +255,7 @@ U 1 1 5E00BFEF
 P 4400 2400
 F 0 "T7" H 4591 2354 50  0000 L CNN
 F 1 "BC557" H 4591 2445 50  0000 L CNN
-F 2 "HTL Netzgerät:TO-92" H 4600 2325 50  0001 L CIN
+F 2 "HTL_Netzgeraet:TO-92" H 4600 2325 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 4400 2400 50  0001 L CNN
 	1    4400 2400
 	1    0    0    1   
@@ -266,7 +266,7 @@ U 1 1 5E00D456
 P 6550 2400
 F 0 "T6" H 6741 2354 50  0000 L CNN
 F 1 "BC557" H 6741 2445 50  0000 L CNN
-F 2 "HTL Netzgerät:TO-92" H 6750 2325 50  0001 L CIN
+F 2 "HTL_Netzgeraet:TO-92" H 6750 2325 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 6550 2400 50  0001 L CNN
 	1    6550 2400
 	1    0    0    1   
@@ -336,7 +336,7 @@ U 1 1 5E02DE52
 P 9750 2850
 F 0 "X14" H 9830 2892 50  0000 L CNN
 F 1 "OUT" H 9830 2801 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 9750 2850 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 9750 2850 50  0001 C CNN
 F 3 "~" H 9750 2850 50  0001 C CNN
 	1    9750 2850
 	1    0    0    -1  
@@ -345,8 +345,8 @@ $Comp
 L Device:D_Bridge_+A-A GL1
 U 1 1 5E02FBFF
 P 9650 5600
-F 0 "GL1" V 9950 5900 50  0000 R CNN
-F 1 "1A" V 9850 5850 50  0000 R CNN
+F 0 "GL1" V 9950 5750 50  0000 L CNN
+F 1 "1A" V 9850 5800 50  0000 L CNN
 F 2 "Diode_THT:Diode_Bridge_Round_D9.0mm" H 9650 5600 50  0001 C CNN
 F 3 "" H 9650 5600 50  0001 C CNN
 	1    9650 5600
@@ -355,24 +355,24 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 X5
 U 1 1 5E02FC05
-P 9950 5150
-F 0 "X5" V 10100 5100 50  0000 L CNN
-F 1 "AUX2_AC1" V 10076 5146 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 9950 5150 50  0001 C CNN
-F 3 "~" H 9950 5150 50  0001 C CNN
-	1    9950 5150
-	0    1    -1   0   
+P 10150 5350
+F 0 "X5" H 10068 5217 50  0000 C CNN
+F 1 "AUX2_AC1" V 10276 5346 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 10150 5350 50  0001 C CNN
+F 3 "~" H 10150 5350 50  0001 C CNN
+	1    10150 5350
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 X6
 U 1 1 5E02FC0C
-P 9950 5900
-F 0 "X6" V 10100 5850 50  0000 L CNN
-F 1 "AUX2_AC2" V 10150 5896 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 9950 5900 50  0001 C CNN
-F 3 "~" H 9950 5900 50  0001 C CNN
-	1    9950 5900
-	0    1    -1   0   
+P 10150 6100
+F 0 "X6" H 10068 5967 50  0000 C CNN
+F 1 "AUX2_AC2" V 10350 6096 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 10150 6100 50  0001 C CNN
+F 3 "~" H 10150 6100 50  0001 C CNN
+	1    10150 6100
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9350 6100 9350 5600
@@ -442,7 +442,7 @@ U 1 1 5E035E15
 P 8500 5600
 F 0 "T5" H 8691 5646 50  0000 L CNN
 F 1 "BC547" H 8691 5555 50  0000 L CNN
-F 2 "HTL Netzgerät:TO-92" H 8700 5525 50  0001 L CIN
+F 2 "HTL_Netzgeraet:TO-92" H 8700 5525 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 8500 5600 50  0001 L CNN
 	1    8500 5600
 	-1   0    0    -1  
@@ -473,7 +473,7 @@ U 1 1 5E039ADC
 P 3000 4150
 F 0 "R6" V 3207 4150 50  0000 C CNN
 F 1 "0R22/5W" V 3116 4150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P22.86mm_Horizontal" V 2930 4150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal" V 2930 4150 50  0001 C CNN
 F 3 "~" H 3000 4150 50  0001 C CNN
 	1    3000 4150
 	0    -1   -1   0   
@@ -485,7 +485,7 @@ U 1 1 5E03D5CE
 P 9750 4150
 F 0 "X15" H 9830 4192 50  0000 L CNN
 F 1 "GND" H 9830 4101 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 9750 4150 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 9750 4150 50  0001 C CNN
 F 3 "~" H 9750 4150 50  0001 C CNN
 	1    9750 4150
 	1    0    0    -1  
@@ -507,7 +507,7 @@ U 1 1 5E0563D4
 P 5350 5250
 F 0 "T2" H 5541 5296 50  0000 L CNN
 F 1 "BC547" H 5541 5205 50  0000 L CNN
-F 2 "HTL Netzgerät:TO-92" H 5550 5175 50  0001 L CIN
+F 2 "HTL_Netzgeraet:TO-92" H 5550 5175 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5350 5250 50  0001 L CNN
 	1    5350 5250
 	1    0    0    -1  
@@ -518,7 +518,7 @@ U 1 1 5E056885
 P 6300 5250
 F 0 "T1" H 6491 5296 50  0000 L CNN
 F 1 "BC547" H 6491 5205 50  0000 L CNN
-F 2 "HTL Netzgerät:TO-92" H 6500 5175 50  0001 L CIN
+F 2 "HTL_Netzgeraet:TO-92" H 6500 5175 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6300 5250 50  0001 L CNN
 	1    6300 5250
 	-1   0    0    -1  
@@ -675,7 +675,7 @@ U 1 1 5E0CA8CB
 P 6850 6000
 F 0 "R15" H 6781 5954 50  0000 R CNN
 F 1 "50k" H 6781 6045 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_PT-15-V02_Vertical" H 6850 6000 50  0001 C CNN
+F 2 "HTL_Netzgeraet:Potentiometer_Piher_PT-15-V02_Vertical" H 6850 6000 50  0001 C CNN
 F 3 "~" H 6850 6000 50  0001 C CNN
 	1    6850 6000
 	1    0    0    1   
@@ -692,11 +692,11 @@ Connection ~ 6850 5800
 Wire Wire Line
 	6850 5800 6850 5750
 $Comp
-L Device:R_Potentiometer R16
+L Device:R_Potentiometer P1
 U 1 1 5E0CEA26
 P 7400 4950
-F 0 "R16" H 7330 4996 50  0000 R CNN
-F 1 "POT" H 7330 4905 50  0000 R CNN
+F 0 "P1" H 7300 4950 50  0000 R CNN
+F 1 "POT" H 7330 4905 50  0001 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Piher_PT-15-H25_Horizontal" H 7400 4950 50  0001 C CNN
 F 3 "~" H 7400 4950 50  0001 C CNN
 	1    7400 4950
@@ -710,7 +710,7 @@ U 1 1 5E0DA017
 P 7100 4950
 F 0 "X12" H 7018 5075 50  0000 C CNN
 F 1 "VPOT-" H 7018 4726 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 7100 4950 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 7100 4950 50  0001 C CNN
 F 3 "~" H 7100 4950 50  0001 C CNN
 	1    7100 4950
 	1    0    0    -1  
@@ -721,7 +721,7 @@ U 1 1 5E0E232F
 P 7100 4650
 F 0 "X13" H 7018 4775 50  0000 C CNN
 F 1 "VPOT+" H 7018 4776 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 7100 4650 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 7100 4650 50  0001 C CNN
 F 3 "~" H 7100 4650 50  0001 C CNN
 	1    7100 4650
 	1    0    0    -1  
@@ -743,7 +743,7 @@ U 1 1 5E10F0FE
 P 2550 5250
 F 0 "T3" H 2741 5296 50  0000 L CNN
 F 1 "BC547" H 2741 5205 50  0000 L CNN
-F 2 "HTL Netzgerät:TO-92" H 2750 5175 50  0001 L CIN
+F 2 "HTL_Netzgeraet:TO-92" H 2750 5175 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2550 5250 50  0001 L CNN
 	1    2550 5250
 	1    0    0    -1  
@@ -754,7 +754,7 @@ U 1 1 5E10F104
 P 3500 5250
 F 0 "T4" H 3691 5296 50  0000 L CNN
 F 1 "BC547" H 3691 5205 50  0000 L CNN
-F 2 "HTL Netzgerät:TO-92" H 3700 5175 50  0001 L CIN
+F 2 "HTL_Netzgeraet:TO-92" H 3700 5175 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 3500 5250 50  0001 L CNN
 	1    3500 5250
 	-1   0    0    -1  
@@ -867,7 +867,7 @@ U 1 1 5E10F148
 P 4050 6000
 F 0 "R14" H 3981 6046 50  0000 R CNN
 F 1 "25k" H 3981 5955 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_PT-15-V02_Vertical" H 4050 6000 50  0001 C CNN
+F 2 "HTL_Netzgeraet:Potentiometer_Piher_PT-15-V02_Vertical" H 4050 6000 50  0001 C CNN
 F 3 "~" H 4050 6000 50  0001 C CNN
 	1    4050 6000
 	1    0    0    -1  
@@ -881,11 +881,11 @@ Wire Wire Line
 Wire Wire Line
 	4050 5800 4050 5750
 $Comp
-L Device:R_Potentiometer R17
+L Device:R_Potentiometer P2
 U 1 1 5E123D5C
 P 4600 4950
-F 0 "R17" H 4530 4996 50  0000 R CNN
-F 1 "POT" H 4530 4905 50  0000 R CNN
+F 0 "P2" H 4550 4950 50  0000 R CNN
+F 1 "POT" H 4600 4750 50  0001 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Piher_PT-15-H25_Horizontal" H 4600 4950 50  0001 C CNN
 F 3 "~" H 4600 4950 50  0001 C CNN
 	1    4600 4950
@@ -899,7 +899,7 @@ U 1 1 5E123D63
 P 4300 4950
 F 0 "X8" H 4218 5075 50  0000 C CNN
 F 1 "IPOT-" H 4218 4726 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 4300 4950 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 4300 4950 50  0001 C CNN
 F 3 "~" H 4300 4950 50  0001 C CNN
 	1    4300 4950
 	1    0    0    -1  
@@ -999,8 +999,6 @@ U_OUT
 Wire Notes Line
 	4900 6450 7200 6450
 Wire Notes Line
-	7200 6450 7200 5200
-Wire Notes Line
 	7200 5200 7900 5200
 Wire Notes Line
 	7900 5200 7900 3850
@@ -1058,7 +1056,7 @@ Text Label 5500 5600 0    50   ~ 0
 B_-0.6V
 Text Label 2700 5600 0    50   ~ 0
 A_-0.6V
-Text Notes 10200 6450 0    50   ~ 0
+Text Notes 10350 6450 0    50   ~ 0
 Temperaturstabile \n5,6V Zenerdiode\nerzeugt stabilen Strom\nfür die 33V Zenerdiode
 Text Notes 4550 2000 0    50   ~ 0
 Wird einer der beiden Transistoren T6/T7\naktiviert, wird dem Ansteuertransistor T8\nder Basisstrom entzogen. 
@@ -1088,11 +1086,11 @@ Differenzverstärker\nfür Spannungsregelung
 Wire Notes Line
 	8050 4800 8050 6450
 Wire Notes Line
-	8050 6450 10100 6450
+	8050 6450 10250 6450
 Wire Notes Line
-	10100 6450 10100 4800
+	10250 6450 10250 4800
 Wire Notes Line
-	10100 4800 8050 4800
+	10250 4800 8050 4800
 Text Notes 8450 4750 0    80   ~ 0
 Negative Hilfsversorgung \nfür Differenzverstärker
 Wire Wire Line
@@ -1125,7 +1123,7 @@ U 1 1 5DFF11F3
 P 650 7600
 F 0 "MK1" H 750 7646 50  0000 L CNN
 F 1 "Mounting_Hole" H 750 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 650 7600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 650 7600 50  0001 C CNN
 F 3 "" H 650 7600 50  0001 C CNN
 	1    650  7600
 	1    0    0    -1  
@@ -1136,7 +1134,7 @@ U 1 1 5DFF181D
 P 1500 7600
 F 0 "MK2" H 1600 7646 50  0000 L CNN
 F 1 "Mounting_Hole" H 1600 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 1500 7600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1500 7600 50  0001 C CNN
 F 3 "" H 1500 7600 50  0001 C CNN
 	1    1500 7600
 	1    0    0    -1  
@@ -1147,7 +1145,7 @@ U 1 1 5DFF19A8
 P 2350 7600
 F 0 "MK3" H 2450 7646 50  0000 L CNN
 F 1 "Mounting_Hole" H 2450 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 2350 7600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2350 7600 50  0001 C CNN
 F 3 "" H 2350 7600 50  0001 C CNN
 	1    2350 7600
 	1    0    0    -1  
@@ -1160,23 +1158,12 @@ Text Label 9250 6350 0    50   ~ 0
 U_AUX2
 NoConn ~ 4050 5850
 $Comp
-L Device:R J1
-U 1 1 5E0917D6
-P 3850 4350
-F 0 "J1" V 3735 4350 50  0000 C CNN
-F 1 "0.7/20.32mm" H 3850 4250 50  0001 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 3780 4350 50  0001 C CNN
-F 3 "~" H 3850 4350 50  0001 C CNN
-	1    3850 4350
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 X7
 U 1 1 5E123D69
 P 4300 4650
 F 0 "X7" H 4218 4775 50  0000 C CNN
 F 1 "IPOT+" H 4218 4776 50  0001 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 4300 4650 50  0001 C CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 4300 4650 50  0001 C CNN
 F 3 "~" H 4300 4650 50  0001 C CNN
 	1    4300 4650
 	1    0    0    -1  
@@ -1188,8 +1175,6 @@ Wire Wire Line
 Connection ~ 4050 4350
 Wire Wire Line
 	5450 4350 5450 4750
-Wire Wire Line
-	4050 4350 5050 4350
 Connection ~ 5450 4750
 Wire Wire Line
 	5050 5250 5050 4350
@@ -1270,7 +1255,46 @@ Connection ~ 3250 4150
 Wire Wire Line
 	3250 4150 8850 4150
 Wire Wire Line
-	3450 4350 3700 4350
+	3450 4350 3600 4350
 Wire Wire Line
 	4000 4350 4050 4350
+$Comp
+L htl_mechanical:Drahtbruecke J1
+U 1 1 5E0917D6
+P 3800 4350
+F 0 "J1" H 3800 4450 50  0000 C CNN
+F 1 "0.7/20.32mm" H 3750 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 3730 4350 50  0001 C CNN
+F 3 "~" H 3800 4350 50  0001 C CNN
+	1    3800 4350
+	1    0    0    -1  
+$EndComp
+Text Notes 850  2150 0    60   ~ 12
+27V~~
+Text Notes 2500 2550 0    60   ~ 12
+10V~~
+Text Notes 10000 5800 0    60   ~ 12
+36V~~
+Text Notes 9200 1600 0    50   ~ 0
+Für Transistor T8 wurde bisher (bis V2.0)\nBC141, 2N1613 oder 2N3735\nim TO8-Gehäuse verwendet
+Text Notes 7250 4450 0    50   ~ 0
+Justierprint\nP1+P3 (500R)
+Wire Notes Line
+	7900 4450 7200 4450
+Wire Notes Line
+	7200 4450 7200 6450
+Wire Notes Line
+	4800 4400 4400 4400
+Wire Notes Line
+	4400 4400 4400 5250
+Wire Notes Line
+	4400 5250 4800 5250
+Text Notes 4750 4400 2    50   ~ 0
+Justierprint\nP2+P4 (500R)
+Wire Wire Line
+	4050 4350 4050 4200
+Wire Wire Line
+	4050 4200 5050 4200
+Wire Wire Line
+	5050 4200 5050 4350
 $EndSCHEMATC
