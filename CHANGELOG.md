@@ -30,7 +30,7 @@ durch Karl Zeilhofer
 * Footprint inkl. 3D-Modell für Drahtbrücke 0.7mm x 20,32mm (bleibt für Lehrzwecke anstatt Top-Layer)
 * Strichstärke für Texte im Kupfer auf 0,2mm
 * Texte auf Bestückungsdruck und Kupfer richtig Platziert
-
+* ELKOS auf gleiche Orientierung gedreht
 
 ## TODOs v2.1
 * 3D Modell der Trimmer
