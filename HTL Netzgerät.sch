@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "HTL-Netzgerät - Hauptplatine"
-Date "2020-11-16"
+Date "2020-11-19"
 Rev "V2.1"
-Comp "HTL-Steyr"
+Comp "HTL Steyr"
 Comment1 "überarbeitet von Karl Zeilhofer"
 Comment2 ""
 Comment3 ""
@@ -71,7 +71,7 @@ U 1 1 5DFE9DA9
 P 4000 1300
 F 0 "R9" H 4070 1346 50  0000 L CNN
 F 1 "27k" H 4070 1255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3930 1300 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3930 1300 50  0001 C CNN
 F 3 "~" H 4000 1300 50  0001 C CNN
 	1    4000 1300
 	1    0    0    -1  
@@ -93,7 +93,7 @@ U 1 1 5DFEC32D
 P 7300 2000
 F 0 "R13" H 7230 1954 50  0000 R CNN
 F 1 "27k" H 7230 2045 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 7230 2000 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 7230 2000 50  0001 C CNN
 F 3 "~" H 7300 2000 50  0001 C CNN
 	1    7300 2000
 	-1   0    0    1   
@@ -104,7 +104,7 @@ U 1 1 5DFEC6DB
 P 7750 2500
 F 0 "R11" H 7680 2454 50  0000 R CNN
 F 1 "10k" H 7680 2545 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 7680 2500 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 7680 2500 50  0001 C CNN
 F 3 "~" H 7750 2500 50  0001 C CNN
 	1    7750 2500
 	-1   0    0    1   
@@ -210,12 +210,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 X11
 U 1 1 5E00013E
-P 8850 2550
-F 0 "X11" V 8768 2462 50  0000 R CNN
-F 1 "E" V 8723 2462 50  0001 R CNN
-F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 8850 2550 50  0001 C CNN
-F 3 "~" H 8850 2550 50  0001 C CNN
-	1    8850 2550
+P 8850 2600
+F 0 "X11" V 8768 2512 50  0000 R CNN
+F 1 "E" V 8723 2512 50  0001 R CNN
+F 2 "HTL_Netzgeraet:TestPoint_THTPad_D2.5mm_Drill1.25mm" H 8850 2600 50  0001 C CNN
+F 3 "~" H 8850 2600 50  0001 C CNN
+	1    8850 2600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -280,7 +280,7 @@ U 1 1 5E00F5AD
 P 6200 2050
 F 0 "R10" H 6130 2004 50  0000 R CNN
 F 1 "220k" H 6130 2095 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 6130 2050 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 6130 2050 50  0001 C CNN
 F 3 "~" H 6200 2050 50  0001 C CNN
 	1    6200 2050
 	-1   0    0    1   
@@ -291,7 +291,7 @@ U 1 1 5E00F11B
 P 4000 1950
 F 0 "R12" H 3930 1904 50  0000 R CNN
 F 1 "220k" H 3930 1995 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3930 1950 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3930 1950 50  0001 C CNN
 F 3 "~" H 4000 1950 50  0001 C CNN
 	1    4000 1950
 	-1   0    0    1   
@@ -318,7 +318,7 @@ Wire Wire Line
 	3550 2850 4500 2850
 Connection ~ 6200 1650
 Wire Wire Line
-	8850 2750 8850 2850
+	8850 2800 8850 2850
 Wire Wire Line
 	7750 2650 7750 2850
 Connection ~ 7750 2850
@@ -409,7 +409,7 @@ U 1 1 5E030E0A
 P 8800 5250
 F 0 "R8" H 8730 5204 50  0000 R CNN
 F 1 "10k" H 8730 5295 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 8730 5250 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 8730 5250 50  0001 C CNN
 F 3 "~" H 8800 5250 50  0001 C CNN
 	1    8800 5250
 	1    0    0    1   
@@ -460,7 +460,7 @@ U 1 1 5E039301
 P 8400 6000
 F 0 "R7" H 8330 5954 50  0000 R CNN
 F 1 "1k" H 8330 6045 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 8330 6000 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 8330 6000 50  0001 C CNN
 F 3 "~" H 8400 6000 50  0001 C CNN
 	1    8400 6000
 	1    0    0    1   
@@ -554,7 +554,7 @@ U 1 1 5E05E0DF
 P 5850 5850
 F 0 "R3" H 5780 5804 50  0000 R CNN
 F 1 "330k" H 5780 5895 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 5780 5850 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 5780 5850 50  0001 C CNN
 F 3 "~" H 5850 5850 50  0001 C CNN
 	1    5850 5850
 	-1   0    0    1   
@@ -617,7 +617,7 @@ U 1 1 5E083E33
 P 8450 3550
 F 0 "R1" H 8380 3504 50  0000 R CNN
 F 1 "2k2" H 8380 3595 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 8380 3550 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 8380 3550 50  0001 C CNN
 F 3 "~" H 8450 3550 50  0001 C CNN
 	1    8450 3550
 	-1   0    0    1   
@@ -648,7 +648,7 @@ U 1 1 5E0B8562
 P 6850 5600
 F 0 "R2" H 6780 5554 50  0000 R CNN
 F 1 "47k" H 6780 5645 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 6780 5600 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 6780 5600 50  0001 C CNN
 F 3 "~" H 6850 5600 50  0001 C CNN
 	1    6850 5600
 	-1   0    0    1   
@@ -786,7 +786,7 @@ U 1 1 5E10F117
 P 3050 5850
 F 0 "R5" H 2980 5804 50  0000 R CNN
 F 1 "330k" H 2980 5895 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 2980 5850 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 2980 5850 50  0001 C CNN
 F 3 "~" H 3050 5850 50  0001 C CNN
 	1    3050 5850
 	-1   0    0    1   
@@ -844,7 +844,7 @@ U 1 1 5E10F13A
 P 4050 5600
 F 0 "R4" H 3980 5554 50  0000 R CNN
 F 1 "120k" H 3980 5645 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3980 5600 50  0001 C CNN
+F 2 "HTL_Netzgeraet:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3980 5600 50  0001 C CNN
 F 3 "~" H 4050 5600 50  0001 C CNN
 	1    4050 5600
 	-1   0    0    1   
@@ -1297,4 +1297,11 @@ Wire Wire Line
 	4050 4200 5050 4200
 Wire Wire Line
 	5050 4200 5050 4350
+NoConn ~ 7200 4650
+NoConn ~ 7200 4950
+NoConn ~ 4400 4650
+NoConn ~ 4400 4950
+NoConn ~ 8550 2250
+NoConn ~ 8850 2050
+NoConn ~ 8850 2450
 $EndSCHEMATC

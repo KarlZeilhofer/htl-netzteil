@@ -31,6 +31,12 @@ durch Karl Zeilhofer
 * Strichstärke für Texte im Kupfer auf 0,2mm
 * Texte auf Bestückungsdruck und Kupfer richtig Platziert
 * ELKOS auf gleiche Orientierung gedreht
+* Ecken abgerundet mit R5 mm
+* Leiterplattenabmessungen leicht aufgerundet auf ganze mm: 140x65
+* ERC fehlerlos
+* DRC passt (tolerierbare Meldungen bez. Überlappende Bauteile)
+* Beschriftungen am Bestückungsdruck
+
 
 ## TODOs v2.1
 * 3D Modell der Trimmer
@@ -38,7 +44,8 @@ durch Karl Zeilhofer
 * Rückfrage: Shunt mit Bohrdurchmesser 1.2 (aus KiCad Lib), Laut Herwig nur 1.0mm?
 * Gleiches gilt für ELKO C5
 * Werte für Potis im Schaltplan erfragen
-* Ecken abrunden
+
+
 
 
 # V7d übernommen von Günter Eglseer
