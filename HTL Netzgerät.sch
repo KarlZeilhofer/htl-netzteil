@@ -55,7 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 2050 3150 1100
 $Comp
-L Device:C_Polarized C6
+L HTL-Netzgerät-rescue:C_Polarized-Device C6
 U 1 1 5DFE9419
 P 3550 1850
 F 0 "C6" H 3432 1896 50  0000 R CNN
@@ -140,7 +140,7 @@ U 1 1 5DFF683F
 P 1500 1900
 F 0 "GL3" V 1546 2244 50  0000 L CNN
 F 1 "3A" V 1455 2244 50  0000 L CNN
-F 2 "Diode_THT:Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm" H 1500 1900 50  0001 C CNN
+F 2 "HTL_Netzgeraet:Brueckengleichrichter_p7.4-7.2-9.5mm" H 1500 1900 50  0001 C CNN
 F 3 "" H 1500 1900 50  0001 C CNN
 	1    1500 1900
 	0    1    -1   0   
@@ -176,7 +176,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1600 1500 950 
 $Comp
-L Device:C_Polarized C5
+L HTL-Netzgerät-rescue:C_Polarized-Device C5
 U 1 1 5DFF6855
 P 2050 2650
 F 0 "C5" H 1750 2750 50  0000 L CNN
@@ -379,7 +379,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 5300 9650 4900
 $Comp
-L Device:C_Polarized C4
+L HTL-Netzgerät-rescue:C_Polarized-Device C4
 U 1 1 5E02FC15
 P 9150 5600
 F 0 "C4" H 9268 5646 50  0000 L CNN
@@ -601,7 +601,7 @@ Wire Wire Line
 	6550 5600 6200 5600
 Connection ~ 6200 5600
 $Comp
-L Device:C_Polarized C1
+L HTL-Netzgerät-rescue:C_Polarized-Device C1
 U 1 1 5E08383F
 P 8850 3550
 F 0 "C1" H 8968 3596 50  0000 L CNN
@@ -670,7 +670,7 @@ Connection ~ 6850 5250
 Wire Wire Line
 	6850 5250 6850 5450
 $Comp
-L Device:R_Potentiometer R15
+L HTL-Netzgerät-rescue:R_Potentiometer-Device R15
 U 1 1 5E0CA8CB
 P 6850 6000
 F 0 "R15" H 6781 5954 50  0000 R CNN
@@ -692,7 +692,7 @@ Connection ~ 6850 5800
 Wire Wire Line
 	6850 5800 6850 5750
 $Comp
-L Device:R_Potentiometer P1
+L HTL-Netzgerät-rescue:R_Potentiometer-Device P1
 U 1 1 5E0CEA26
 P 7400 4950
 F 0 "P1" H 7300 4950 50  0000 R CNN
@@ -862,7 +862,7 @@ Connection ~ 4050 5250
 Wire Wire Line
 	4050 5250 4050 5450
 $Comp
-L Device:R_Potentiometer R14
+L HTL-Netzgerät-rescue:R_Potentiometer-Device R14
 U 1 1 5E10F148
 P 4050 6000
 F 0 "R14" H 3981 6046 50  0000 R CNN
@@ -881,7 +881,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 5800 4050 5750
 $Comp
-L Device:R_Potentiometer P2
+L HTL-Netzgerät-rescue:R_Potentiometer-Device P2
 U 1 1 5E123D5C
 P 4600 4950
 F 0 "P2" H 4550 4950 50  0000 R CNN
@@ -1264,7 +1264,7 @@ U 1 1 5E0917D6
 P 3800 4350
 F 0 "J1" H 3800 4450 50  0000 C CNN
 F 1 "0.7/20.32mm" H 3750 4300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 3730 4350 50  0001 C CNN
+F 2 "HTL_Netzgeraet:Drahtbruecke_d0.7mm_P20.32mm" V 3730 4350 50  0001 C CNN
 F 3 "~" H 3800 4350 50  0001 C CNN
 	1    3800 4350
 	1    0    0    -1  

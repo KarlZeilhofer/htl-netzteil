@@ -24,19 +24,21 @@ durch Karl Zeilhofer
 * Bestätigt: Bohrdurchmesser 1mm bei 1A-Wechselrichter
 * T8 auf auf einfach zu lötendes TO92-Gehäuse
 * Trimmer für 2 Ausführungen. Schleiferkontakt unterm Gehäuse, oder am Rand. 
+* Gleichrichter von Pin 1 bis 4: -~~+, 7.4/7.2/9.5mm Pinabstand, 4x1.4mm Bohrung
+* Shunt mit 30,48mm Raster
+* C3 nach links verlegt, um Platz für Shunt zu schaffen
+* Footprint inkl. 3D-Modell für Drahtbrücke 0.7mm x 20,32mm (bleibt für Lehrzwecke anstatt Top-Layer)
+* Strichstärke für Texte im Kupfer auf 0,2mm
+* Texte auf Bestückungsdruck und Kupfer richtig Platziert
+
 
 ## TODOs v2.1
 * 3D Modell der Trimmer
-* 3D Modell der Drahtbrücke
 * 3D Modell der Einpressstifte (d1.3mm)
-* Strichstärke für Texte im Kupfer anpassen
-* Gleichrichter von Pin 1 bis 4: -~~+, 7.4/7.2/9.5mm Pinabstand, 4x1.4mm Bohrung
 * Rückfrage: Shunt mit Bohrdurchmesser 1.2 (aus KiCad Lib), Laut Herwig nur 1.0mm?
 * Gleiches gilt für ELKO C5
-* Schunt wurde auf ca. 30mm vergrößert. Muss noch eingepfletgt werden, Kollision mit 
-  Drahtbrücke und Diode D1
 * Werte für Potis im Schaltplan erfragen
-
+* Ecken abrunden
 
 
 # V7d übernommen von Günter Eglseer
