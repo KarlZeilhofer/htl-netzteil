@@ -36,10 +36,10 @@ durch Karl Zeilhofer
 * ERC fehlerlos
 * DRC passt (tolerierbare Meldungen bez. Überlappende Bauteile)
 * Beschriftungen am Bestückungsdruck
+* 3D Modell der Trimmer nun in der HTL-Lib
 
 
 ## TODOs v2.1
-* 3D Modell der Trimmer
 * 3D Modell der Einpressstifte (d1.3mm)
 * Rückfrage: Shunt mit Bohrdurchmesser 1.2 (aus KiCad Lib), Laut Herwig nur 1.0mm?
 * Gleiches gilt für ELKO C5
