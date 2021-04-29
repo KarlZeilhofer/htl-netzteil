@@ -13,6 +13,18 @@ Versionsgeschichte
 * Testen von Reglerwechsel (Stom/Spannung), besonders auch für ca. 0A - für LED-Betrieb
 
 
+# v2.2 - Fertigungsoptimierungen, Schutzdioden, Stifte für neue Anzeigeelektronik
+* Bestückungsdruck Gleichrichter
+* Schutzdioden für die Transistoren in der Ausgangsstufe
+* Montagebohrungen korrigiert
+* Lötaugen vergößert
+* Drahtbrücke auf 25.4mm vergrößert
+* Shunt: Um 2.54mm breiter gemachen
+* Zusatzpins für Strommessung und Sollwerte
+* Einseitige Platine
+* 3 Stk. bestellt bei Multi-CB
+
+
 # v2.1 - Portierung nach KiCad mit kleinen Updates
 durch Karl Zeilhofer
 
@@ -44,8 +56,6 @@ durch Karl Zeilhofer
 * Rückfrage: Shunt mit Bohrdurchmesser 1.2 (aus KiCad Lib), Laut Herwig nur 1.0mm?
 * Gleiches gilt für ELKO C5
 * Werte für Potis im Schaltplan erfragen
-
-
 
 
 # V7d übernommen von Günter Eglseer
